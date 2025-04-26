@@ -54,6 +54,7 @@ public class basesteps {
 
     public void launchApp()
     {
+        System.out.println("today is saturday");
         if(prop.getProperty("browser").equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
         }else if(prop.getProperty("browser").equalsIgnoreCase("firefox")) {
