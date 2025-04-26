@@ -48,7 +48,7 @@ public class LoginPage extends CommonActions {
 
     public void login(String uid, String pwd, String them)
     {
-        System.out.println("hello");
+       // System.out.println("hello");
         setUsername(uid);
         setPassword(pwd);
         selectTheme("");

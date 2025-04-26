@@ -14,7 +14,7 @@ public class HeaderPage extends CommonActions {
     {
         super(driver);
         this.driver = driver;
-        System.out.println("");
+       // System.out.println("");
         PageFactory.initElements(driver,this);
     }
 
