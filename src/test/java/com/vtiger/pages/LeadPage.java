@@ -24,7 +24,7 @@ public class LeadPage extends HeaderPage {
     @FindBy(xpath = "//input[@name='company']")
     WebElement tb_company;
 
-    @FindBy(name = "button123")
+    @FindBy(name = "button")
     WebElement btn_save;
 
     public void createlead(String lname, String comp)
